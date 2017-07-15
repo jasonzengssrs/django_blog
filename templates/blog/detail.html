@@ -5,7 +5,7 @@
         <header class="entry-header">
             <h1 class="entry-title">{{ post.title }}</h1>
             <div class="entry-meta">
-                <span class="post-category"><a href="#">{{ post.category.name }}/a></span>
+                <span class="post-category"><a href="#">{{ post.category.name }}</a></span>
                 <span class="post-date"><a href="#"><time class="entry-date"
                                                           datetime="{{ post.created_time }}">{{ post.created_time }}</time></a></span>
                 <span class="post-author"><a href="#">{{ post.author }}</a></span>
@@ -20,7 +20,7 @@
 {% endblock main%}
 
 {% block toc %}
-    <div class="widget widget-content">
+    <!-- <div class="widget widget-content">
         <h3 class="widget-title">文章目录</h3>
         <ul>
             <li>
@@ -39,7 +39,7 @@
                 <a href="#">获取帮助</a>
             </li>
         </ul>
-    </div>
+    </div> -->
 {% endblock toc %}
 
 
