@@ -25,7 +25,7 @@ SECRET_KEY = '6tcf4u&$32n7qw(++u=9oqz&gr8-1pe37_7&0ow^$z3k8ud@kq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.ssrs.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.ssrs.life']
 
 
 # Application definition
